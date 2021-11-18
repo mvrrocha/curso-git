@@ -22,7 +22,7 @@ namespace ConsoleApp1
 
                 for (int i = 0; i < linhas; i++)
                 {
-                    Console.Write("Informe sequencia de números: ");
+                    Console.Write("Informe uma sequencia de números: ");
                     string[] values = Console.ReadLine().Split(' ');
                     for (int j = 0; j < colunas; j++)
                     {
